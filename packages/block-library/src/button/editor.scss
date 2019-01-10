@@ -19,7 +19,7 @@
 	}
 
 	// Make placeholder text white unless custom colors or outline versions are chosen.
-	&:not(.has-text-color):not(.is-style-outline) .editor-rich-text__tinymce[data-is-placeholder-visible="true"] + .editor-rich-text__tinymce {
+	&:not(.has-text-color):not(.is-style-outline):not(.is-style-squared-outline) .editor-rich-text__tinymce[data-is-placeholder-visible="true"] + .editor-rich-text__tinymce {
 		color: $white;
 	}
 

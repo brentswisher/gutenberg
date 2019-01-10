@@ -81,6 +81,7 @@ export const settings = {
 		{ name: 'default', label: _x( 'Rounded', 'block style' ), isDefault: true },
 		{ name: 'outline', label: __( 'Outline' ) },
 		{ name: 'squared', label: _x( 'Squared', 'block style' ) },
+		{ name: 'squared-outline', label: _x( 'Squared Outline', 'block style' ) },
 	],
 
 	edit,

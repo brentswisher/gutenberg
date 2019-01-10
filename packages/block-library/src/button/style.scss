@@ -49,3 +49,13 @@ $blocks-button__height: 56px;
 		border: 2px solid currentcolor;
 	}
 }
+
+.is-style-squared-outline {
+	color: $dark-gray-700;
+
+	.wp-block-button__link {
+		border-radius: 0;
+		background: transparent;
+		border: 2px solid currentcolor;
+	}
+}
